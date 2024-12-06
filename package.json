@@ -1,0 +1,33 @@
+{
+  "name": "npm-experiment",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "npm package example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview" 
+  },
+  "author": "John Huynh",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.2",
+    "plotly.js-dist-min": "^2.35.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
